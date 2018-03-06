@@ -345,10 +345,6 @@ int ListaZadan::Carlier(){
 
 
 void ListaZadan::_CarlierMod(ListaZadan& Optymalna, int& _Cmax, int& UB, int& opt_czas){
-	if(_Cmax == opt_czas){
-		cout << "mam" << endl;
-		return;
-	}
 	ListaZadan Kopia = *this;
 	int indA;
 	int indB;
